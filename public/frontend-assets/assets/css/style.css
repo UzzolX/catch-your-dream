@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;700&display=swap');
 
 :root{
-    --main-color:#3867d6;
+    --main-color:#DBBB4C;
 }
 
 *{
@@ -35,11 +35,11 @@ html::-webkit-scrollbar-thumb{
 }
 
 body{
-    background: #222;
+    background: #313131;
 }
 
 section{
-    padding:2rem 9%;
+    padding: 15rem 9%;
 }
 
 .heading{
@@ -66,16 +66,23 @@ section{
     cursor: pointer;
     font-weight: 600;
 }
-
-.btn:hover{
+.login-btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: .5rem;
     background:var(--main-color);
+    color:#fff;
+    cursor: pointer;
+    font-weight: 600;
 }
 
 .header{
     position: fixed;
     top:0; left: 0; right: 0;
     z-index: 10000;
-    background: #333;
+    background: #1c1c1c;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -99,6 +106,10 @@ section{
 
 .header .navbar a:hover{
     color:var(--main-color);
+}
+
+.login-btn:hover{
+    color:rgb(0, 0, 0) !important;
 }
 
 #menu-bars{
@@ -147,7 +158,7 @@ section{
 
 .service .box-container .box{
     border-radius: .5rem;
-    background:#333;
+    background:#313131;
     text-align: center;
     padding:2.5rem;
 }

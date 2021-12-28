@@ -10,6 +10,7 @@
         <a href="#price">price</a>
         <a href="#review">review</a>
         <a href="#contact">contact</a>
+        <a class="login-btn" href="{{ route('login') }}">Login</a>
     </nav>
 
     <div id="menu-bars" class="fas fa-bars"></div>
