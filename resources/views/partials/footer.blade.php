@@ -41,6 +41,6 @@
 
     </div>
 
-    <div class="credit"> created by <span>mr. web designer</span> | all rights reserved </div>
+    <div class="credit"> created by <span>Lima & Mousumi</span> | all rights reserved </div>
 
 </section>
