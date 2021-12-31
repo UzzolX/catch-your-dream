@@ -387,7 +387,7 @@ section{
 .contact form .inputBox input,
 .contact form textarea{
     width: 100%;
-    background:#333;
+    background:#dbbb4c26;
     border-radius: .5rem;
     padding:1rem;
     margin:.7rem 0;

@@ -11,7 +11,7 @@
         <a href="#gallery">gallery</a>
         <a href="{{ route('pricing.index') }}">price</a>
         <a href="#review">review</a>
-        <a href="#contact">contact</a>
+        <a href="{{ route('contact.index') }}">contact</a>
         <a class="login-btn" href="{{ route('login') }}">Login</a>
     </nav>
 
