@@ -19,4 +19,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/pricing', 'Pages\PricingController@index')->name('dashboard.index');
+Route::get('/pricing', 'Pages\PricingController@index')->name('pricing.index');
