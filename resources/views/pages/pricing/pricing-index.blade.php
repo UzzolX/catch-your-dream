@@ -19,24 +19,24 @@
 
 
     <!-- home section starts  -->
-    <section class="about" id="home">
-
-        <h1 class="heading"><span>about</span> us </h1>
+    <section class="about pad-top" id="home">
 
         <div class="row">
 
             <div class="content">
-                <h3>we will give a very special celebration for you</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam labore fugiat ut esse perferendis
-                    perspiciatis provident dolores fuga in facilis culpa possimus, quia praesentium itaque, sapiente
-                    quasi harum rem asperiores.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat vero expedita incidunt provident
-                    quibusdam aut odit, numquam nesciunt similique nisi.</p>
-                <a href="#" class="btn">contact us</a>
+                <h3>Let professionals run your event!</h3>
+                <p>We take the time to really get to know you and your preferences and find the best places and
+                    activities for you. With lots of creativity, sensibility and know how, we design brilliant events.
+                    We conceptualize and coordinate your event from beginning to end - professionally and individually
+                    with your personal touch.</p>
+                <p>
+                    And we offer a reasonalble pricing for that. Check out our packages below.
+                </p>
+                
             </div>
 
             <div class="image">
-                <img src="{{asset('frontend-assets/assets/images/about-img.jpg')}}" alt="">
+                <img src="{{asset('frontend-assets/assets/images/pricing.jpg')}}" alt="">
             </div>
 
         </div>

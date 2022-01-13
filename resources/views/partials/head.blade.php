@@ -5,3 +5,4 @@
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="{{asset('frontend-assets/assets/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('frontend-assets/assets/css/custom.css')}}">
