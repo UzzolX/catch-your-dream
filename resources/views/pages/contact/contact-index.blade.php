@@ -37,16 +37,17 @@
 
     <h1 class="heading"> <span>contact</span> us </h1>
 
-    <form action="">
+    <form action="{{route('contact.store')}}" method="POST">
+        @csrf
         <div class="inputBox">
-            <input type="text" placeholder="name">
-            <input type="email" placeholder="email">
+            <input name="name" type="text" placeholder="name">
+            <input name="email" type="email" placeholder="email">
         </div>
         <div class="inputBox">
-            <input type="number" placeholder="number">
-            <input type="text" placeholder="subject">
+            <input name="phone" type="number" placeholder="number">
+            <input name="subject" type="text" placeholder="subject">
         </div>
-        <textarea name="" placeholder="your message" id="" cols="30" rows="10"></textarea>
+        <textarea name="message" placeholder="your message" id="" cols="30" rows="10"></textarea>
         <input type="submit" value="send message" class="btn">
     </form>
 

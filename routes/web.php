@@ -24,3 +24,4 @@ Route::get('/pricing', 'Pages\PricingController@index')->name('pricing.index');
 Route::get('/dashboard', 'Dashboard\DashboardController@index')->name('dashboard.index');
 
 Route::get('/contact-us', 'Contact\ContactController@index')->name('contact.index');
+Route::post('/contact-us/store', 'Contact\ContactController@store')->name('contact.store');
