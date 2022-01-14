@@ -12,6 +12,7 @@
         <a href="{{ route('pricing.index') }}">price</a>
         <a href="#review">review</a>
         <a href="{{ route('contact.index') }}">contact</a>
+        <a href="">Blogs</a>
         <a class="login-btn" href="{{ route('login') }}">Login</a>
     </nav>
 

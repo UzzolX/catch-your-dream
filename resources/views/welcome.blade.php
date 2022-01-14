@@ -302,6 +302,43 @@
 
 <!-- review section ends -->
 
+
+<section class="service" id="service">
+
+    <h1 class="heading">latest from our <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img class="blog-image" src="{{asset('frontend-assets/assets/images/g-1.jpg')}}" alt="">
+            <h3>This is a blog title</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, suscipit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, suscipit.</p>
+        </div>
+
+        <div class="box">
+            <img class="blog-image" src="{{asset('frontend-assets/assets/images/g-1.jpg')}}" alt="">
+            <h3>This is a blog title 2</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, suscipit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, suscipit.</p>
+        </div>
+
+        <div class="box">
+            <img class="blog-image" src="{{asset('frontend-assets/assets/images/g-1.jpg')}}" alt="">
+            <h3>This is a blog title 3</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, suscipit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, suscipit.</p>
+        </div>
+
+        <div class="box">
+            <img class="blog-image" src="{{asset('frontend-assets/assets/images/g-1.jpg')}}" alt="">
+            <h3>This is a blog title 3</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, suscipit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, suscipit.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+
 <!-- footer section starts  -->
 
 @include('partials.footer')
