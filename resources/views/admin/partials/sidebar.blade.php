@@ -13,7 +13,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="{{ route('dashboard.index') }}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
     </li>
@@ -28,9 +28,15 @@
     </li>
 
     <li class="nav-item active">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="{{ route('blogs.index') }}">
             <i class="fas fa-fw fa-newspaper"></i>
             <span>Blogs</span></a>
+    </li>
+
+    <li class="nav-item active">
+        <a class="nav-link" href="{{ route('gallery.index') }}">
+            <i class="fas fa-fw fa-image"></i>
+            <span>Gallery</span></a>
     </li>
 
     <!-- Nav Item - Pages Collapse Menu -->

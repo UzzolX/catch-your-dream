@@ -34,3 +34,10 @@ Route::get('/dashboard/blogs/{id}', 'Dashboard\BlogsController@show')->name('blo
 Route::get('/dashboard/blogs/{id}/edit', 'Dashboard\BlogsController@edit')->name('blogs.edit');
 Route::post('/dashboard/blogs/{id}/update', 'Dashboard\BlogsController@update')->name('blogs.update');
 Route::get('/dashboard/blogs/{id}/delete', 'Dashboard\BlogsController@destroy')->name('blogs.delete');
+
+Route::get('/dashboard/gallery', 'Dashboard\GalleryController@index')->name('gallery.index');
+Route::get('/dashboard/gallery/create', 'Dashboard\GalleryController@create')->name('gallery.create');
+Route::post('/dashboard/gallery/create', 'Dashboard\GalleryController@store')->name('gallery.store');
+Route::get('/dashboard/gallery/{id}/edit', 'Dashboard\GalleryController@edit')->name('gallery.edit');
+Route::post('/dashboard/gallery/{id}/update', 'Dashboard\GalleryController@update')->name('gallery.update');
+Route::get('/dashboard/gallery/{id}/delete', 'Dashboard\GalleryController@destroy')->name('gallery.delete');
