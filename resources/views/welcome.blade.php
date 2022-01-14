@@ -309,11 +309,13 @@
 
     <div class="box-container">
 
+        @foreach ($blogs as $raw )
         <div class="box">
-            <img class="blog-image" src="{{asset('frontend-assets/assets/images/g-1.jpg')}}" alt="">
-            <h3>This is a blog title</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, suscipit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, suscipit.</p>
+            <img class="blog-image" src="{{ URL::to('/') }}/images/blogs/{{ $raw->image }}" alt="">
+            <h3>{{ $raw->title }}</h3>
+            <p>{{ $raw->content }}</p>
         </div>
+        @endforeach
 
         <div class="box">
             <img class="blog-image" src="{{asset('frontend-assets/assets/images/g-1.jpg')}}" alt="">

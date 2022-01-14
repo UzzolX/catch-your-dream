@@ -1,4 +1,4 @@
-@extends('admin.index')
+@extends('admin.admin-index')
 @section('content')
 <style>
     input.blogupimage.form-control {

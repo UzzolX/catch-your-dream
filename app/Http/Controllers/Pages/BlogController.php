@@ -14,6 +14,4 @@ class BlogController extends Controller
         $blogs = Blog::all();
         return view('user.pages.blog', compact('blogs'));
     }
-
-    
 }
