@@ -11,4 +11,19 @@ class PricingController extends Controller
     {
         return view('pages.pricing.pricing-index');
     }
+
+    function checkout()
+    {
+        
+
+
+
+
+
+        
+    }
+
+    
+
+
 }
